@@ -1,6 +1,6 @@
 # Michael's Personal Website
 
-[https://michaelsousajr.vercel.app/](https://michaelsousajr.vercel.app/)
+[https://msjr.dev](https://msjr.dev)
 
 ## Tech-Stack
 

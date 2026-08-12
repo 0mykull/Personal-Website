@@ -19,12 +19,14 @@ const Resume = () => {
           Resume
         </Heading>
         <Section delay={0.1}>
-          <Link href="/ms_dev_resume.pdf" isExternal>
+          <Link href="/ms_dev_resume.pdf" isExternal style={{ textDecoration: 'none' }}>
             <Button
               scroll={false}
               rightIcon={<ViewIcon />}
               colorScheme="teal"
               target="_blank"
+              transition="all 0.2s"
+              _hover={{ transform: 'scale(1.05)' }}
             >
               View
             </Button>
@@ -38,6 +40,8 @@ const Resume = () => {
             rightIcon={<DownloadIcon />}
             colorScheme="teal"
             target="_blank"
+            transition="all 0.2s"
+            _hover={{ transform: 'scale(1.05)' }}
           >
             Download
           </Button>

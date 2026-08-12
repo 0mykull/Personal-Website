@@ -3,8 +3,6 @@ import { WorkGridItem } from '../components/grid-item'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 
-
-
 const Portfolio = () => {
   return (
     <Layout title="Portfolio">
@@ -16,40 +14,23 @@ const Portfolio = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
-              id="nole-patrol"
-              title="Nole Patrol"
+              id="gitty"
+              title="Gitty"
             >
-              Data breach search engine for FSU emails
+              A beautiful, modern, and fast Git CLI tool featuring AI-powered commit messages and a stunning terminal UI.
             </WorkGridItem>
           </Section>
+
           <Section delay={0.1}>
             <WorkGridItem
-              id="happy-cat"
-              title="Happy Cat"
+              id="nvim-fountain"
+              title="Neovim Screenwriting Plugin"
             >
-              Bash script that motivates you
+              A Neovim plugin to write screenplays, rewritten in Lua with Treesitter parsing
             </WorkGridItem>
           </Section>
 
           <Section delay={0.2}>
-            <WorkGridItem
-              id="link-page-app"
-              title="Personal Link Page"
-            >
-              Link-in-bio app
-            </WorkGridItem>
-          </Section>
-
-          <Section delay={0.3}>
-            <WorkGridItem
-              id="fileoperator"
-              title="fileoperator"
-            >
-              Python file operations package
-            </WorkGridItem>
-          </Section>
-
-          <Section>
             <WorkGridItem
               id="drako"
               title="Drako"
@@ -58,30 +39,12 @@ const Portfolio = () => {
             </WorkGridItem>
           </Section>
 
-          <Section>
+          <Section delay={0.3}>
             <WorkGridItem
-              id="shush"
-              title="Shush"
+              id="spd"
+              title="SPD"
             >
-              A CLI tool to silence any output
-            </WorkGridItem>
-          </Section>
-
-          <Section>
-            <WorkGridItem
-              id="nvim-fountain"
-              title="Neovim Fountain"
-            >
-              An updated Neovim plugin to write screenplays from neovim
-            </WorkGridItem>
-          </Section>
-
-          <Section>
-            <WorkGridItem
-              id="catppuccin-image-converter"
-              title="Catppuccin Image Converter"
-            >
-              A WebApp to apply a pastel filter on any image
+              A command-line tool or script
             </WorkGridItem>
           </Section>
 

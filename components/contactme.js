@@ -76,8 +76,8 @@ const ContactMe = () => {
           Other Ways to Reach Me
         </Heading>
         <HStack spacing={4}>
-          <Link href="mailto:michaelsousajr@gmail.com" isExternal>
-            <Icon as={EmailIcon} /> michaelsousajr@gmail.com
+          <Link href="mailto:hi@msjr.dev" isExternal>
+            <Icon as={EmailIcon} /> hi@msjr.dev
           </Link>
         </HStack>
       </Box>
